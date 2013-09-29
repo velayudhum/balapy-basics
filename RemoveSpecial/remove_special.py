@@ -11,3 +11,10 @@ for letter in sentence:
 	if letter.isalpha() or letter ==' ' or letter ==',' or letter =='.' or letter== ',':
 		clear_sentence+=letter
 print clear_sentence
+for letter in sentence:
+	if letter.isalpha() or letter=='p'
+	clear_sentence=letter
+	
+	
+	print sentence
+	
