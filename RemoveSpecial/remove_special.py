@@ -28,3 +28,10 @@ if word:
 print caps_sentence
 
 print "\n\n"
+
+caps_sentence = ''
+for word in clear_sentence.split():
+	caps_sentence+=word.capitalize()+' '
+print caps_sentence
+
+	
