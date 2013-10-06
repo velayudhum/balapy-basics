@@ -11,10 +11,20 @@ for letter in sentence:
 	if letter.isalpha() or letter ==' ' or letter ==',' or letter =='.' or letter== ',':
 		clear_sentence+=letter
 print clear_sentence
-for letter in sentence:
-	if letter.isalpha() or letter=='p'
-	clear_sentence=letter
-	
-	
-	print sentence
-	
+
+print "\n\n"
+
+caps_sentence = ''
+word = ''
+for letter in clear_sentence:
+	if not letter.isspace():
+		word+=letter
+	else:
+		word=word.capitalize()+' '
+		caps_sentence+=word
+		word=''
+if word:
+	caps_sentence+=word
+print caps_sentence
+
+print "\n\n"
