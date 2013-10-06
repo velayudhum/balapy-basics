@@ -25,7 +25,7 @@ for letter in clear_sentence:
 		word=''
 if word:
 	caps_sentence+=word
-print caps_sentence
+#print caps_sentence
 
 print "\n\n"
 
