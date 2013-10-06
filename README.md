@@ -12,9 +12,10 @@ Expected output:
 Example: input:pyt#hon
               output: python
 
-3) Display a sentence with each word as capitalized form.
+2) Display a sentence with each word as capitalized form.
 
-2) Display the count of each characters (including both lower case and
+3) Display the count of each characters (including both lower case and
 uppercase)
 Example: p - 4
+		 P - 0
          e - 9

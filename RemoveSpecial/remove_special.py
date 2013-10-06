@@ -34,4 +34,22 @@ for word in clear_sentence.split():
 	caps_sentence+=word.capitalize()+' '
 print caps_sentence
 
+print "\n\n"
+
+caracter_counts={}
+for letter in clear_sentence:
+	caracter_counts[letter]=caracter_counts.setdefault(letter,0)+1
+	
+for letter in clear_sentence:
+	if not caracter_counts.has_key(letter):
+		caracter_counts[letter]=0
+	caracter_counts[letter]+=1
+	
+
+for key in caracter_counts:
+	print key, '-',caracter_counts[key]
+
+	
+
+
 	
