@@ -36,7 +36,8 @@ With specific positioning and styling
 <font color="cyan">At the left we can see...</font>
 
 
-Source form .. _Wiki: http://en.wikipedia.org/wiki/.srt#SubRip_text_file_format
+Source form `Wiki`_.
+.. _Wiki: http://en.wikipedia.org/wiki/.srt#SubRip_text_file_format
 +======================================================+
 So our task is to convert srt to txt files with almost each should have 8 line paragraphs such as input is startdust.srt and output is stardust.txt
 for more info see the startdust.srt and startdust.txt
