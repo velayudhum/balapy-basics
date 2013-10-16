@@ -1,4 +1,4 @@
-ubRip (SubRip Text) files are named with the extension .srt, and contain formatted lines of plain 
+SubRip (SubRip Text) files are named with the extension .srt, and contain formatted lines of plain 
 text in groups separated by a blank line. Subtitles are numbered sequentially, starting at 1. 
 The timecode format used is hours:minutes:seconds,milliseconds with time units fixed to two 
 zero-padded digits and fractions fixed to three zero-padded digits (00:00:00,000).
@@ -36,7 +36,7 @@ With specific positioning and styling
 <font color="cyan">At the left we can see...</font>
 
 
-
+Source form _Wiki: http://en.wikipedia.org/wiki/.srt#SubRip_text_file_format
 +======================================================+
 So our task is to convert srt to txt files with almost each should have 8 line paragraphs such as input is startdust.srt and output is stardust.txt
 for more info see the startdust.srt and startdust.txt
